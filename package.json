@@ -4,7 +4,10 @@
   "description": "Reconstrução da plataforma TabNews focada em Clean Code e performance. Baseado na arquitetura proposta pelo @filipedeschamps no curso.dev.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run services:up && next dev",
+    "services:up": "docker-compose -f infra/docker-compose.yml up -d",
+    "services:stop": "docker-compose -f infra/docker-compose.yml stop",
+    "services:down": "docker-compose -f infra/docker-compose.yml down",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
