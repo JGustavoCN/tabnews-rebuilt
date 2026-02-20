@@ -5,7 +5,6 @@ import orchestrator from "tests/orchestrator.js";
 beforeAll(async () => {
   await orchestrator.waitForAllServices();
   await database.query("DROP SCHEMA public CASCADE; CREATE SCHEMA public;");
-
 });
 
 test("GET /api/v1/migrations returns 200", async () => {
