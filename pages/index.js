@@ -21,11 +21,11 @@ export default function Home() {
           <div className="card caos">
             <div className="status-badge">Como é hoje ❌</div>
             <div className="whatsapp-mockup">
-              <div className="msg">"Alguém tem o link da aula?"</div>
-              <div className="msg emoji">"👍🤣🙏"</div>
-              <div className="msg alert">"Aviso: Reunião cancelada!"</div>
-              <div className="msg">"Figurinha de bom dia"</div>
-              <div className="msg">"Onde tá o PDF do professor?"</div>
+              <div className="msg">Alguém tem o link da aula?</div>
+              <div className="msg emoji">👍🤣🙏</div>
+              <div className="msg alert">Aviso: Reunião cancelada!</div>
+              <div className="msg">Figurinha de bom dia</div>
+              <div className="msg">Onde tá o PDF do professor?</div>
             </div>
             <h2>O Caos do WhatsApp</h2>
             <p>
